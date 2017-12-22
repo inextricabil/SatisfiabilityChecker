@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{632E7944-C15A-4DAC-944C-040B28DDFD34}</ProjectGuid>
+    <ProjectGuid>{C26466EF-801D-4A21-9FC3-51A0D1D18CB5}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Z3ExampleSolver</RootNamespace>
-    <AssemblyName>Z3ExampleSolver</AssemblyName>
+    <RootNamespace>Z3Solver</RootNamespace>
+    <AssemblyName>Z3Solver</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

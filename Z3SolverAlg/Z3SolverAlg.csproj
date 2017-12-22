@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{632E7944-C15A-4DAC-944C-040B28DDFD34}</ProjectGuid>
+    <ProjectGuid>{1C5E8F64-7860-420F-A556-D0E88D39A6E1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Z3ExampleSolver</RootNamespace>
-    <AssemblyName>Z3ExampleSolver</AssemblyName>
+    <RootNamespace>Z3SolverAlg</RootNamespace>
+    <AssemblyName>Z3SolverAlg</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Z3, Version=4.5.0.0, Culture=neutral, PublicKeyToken=9c8d792caae602a2, processorArchitecture=x86">
+      <HintPath>..\packages\z3x86win.4.5.0.1\lib\Microsoft.Z3.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -47,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
