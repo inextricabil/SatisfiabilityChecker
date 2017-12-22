@@ -52,5 +52,11 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SatisfiabilityCheckerLibrary\SatisfiabilityCheckerLibrary.csproj">
+      <Project>{90a08dbd-3335-435e-845b-82d132bf527d}</Project>
+      <Name>SatisfiabilityCheckerLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
