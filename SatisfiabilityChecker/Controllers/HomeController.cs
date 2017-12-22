@@ -18,23 +18,23 @@ namespace SatisfiabilityChecker.Controllers
             if (string.IsNullOrEmpty(Expression))
             {
                 return RedirectToAction("Index");
-            } else
-            {
-                TempData["Expression"] = Expression;
-
-                //Overview
-                TempData["Overview"] = null;
-
-                //Result
-                var checkSatisfiability = GetFormulaSatifsiability(Expression);
-                TempData["Result"] = checkSatisfiability;
-
-                return RedirectToAction("Index");
             }
+
+            TempData["Expression"] = Expression;
+
+            //Overview
+            TempData["Overview"] = null;
+
+            //Result
+            var checkSatisfiability = GetFormulaSatifsiability(Expression);
+            TempData["Result"] = checkSatisfiability;
+
+            return RedirectToAction("Index");
         }
 
         private bool GetFormulaSatifsiability(string expression)
         {
+
             if(expression == "1")
             {
                 return true;

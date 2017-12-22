@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SatisfiabilityChecker", "SatisfiabilityChecker\SatisfiabilityChecker.csproj", "{A284EA1F-D551-44E2-AC3D-466F23AD543A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SatisfiabilityChecker", "SatisfiabilityChecker\SatisfiabilityChecker.csproj", "{A284EA1F-D551-44E2-AC3D-466F23AD543A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z3ExampleSolver", "Z3ExampleSolver\Z3ExampleSolver.csproj", "{632E7944-C15A-4DAC-944C-040B28DDFD34}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A284EA1F-D551-44E2-AC3D-466F23AD543A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A284EA1F-D551-44E2-AC3D-466F23AD543A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A284EA1F-D551-44E2-AC3D-466F23AD543A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{632E7944-C15A-4DAC-944C-040B28DDFD34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{632E7944-C15A-4DAC-944C-040B28DDFD34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{632E7944-C15A-4DAC-944C-040B28DDFD34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{632E7944-C15A-4DAC-944C-040B28DDFD34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
